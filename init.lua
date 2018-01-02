@@ -26,7 +26,6 @@ minetest.register_on_joinplayer(function(player)
 			.. " list[detached:trash;main;0,1.5;1,1;]"
                         .. " image[0.075,1.6;0.8,0.8;creative_trash_icon.png]"
 		player:set_inventory_formspec(formspec)
-		minetest.log("action", "[mod/" .. modName .. "] " .. formspec)
 	end)
 end)
 
