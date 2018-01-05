@@ -29,6 +29,6 @@ minetest.register_on_joinplayer(function(player)
 	end)
 end)
 
-if minetest.settings:get_bool("log_mods") then
+if minetest.setting_get("log_mods") then
   minetest.log("action", "[mod/" .. modName .. "] loaded.")
 end
