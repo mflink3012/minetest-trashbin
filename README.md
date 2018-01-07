@@ -28,6 +28,8 @@ See shipped ``depends.txt``.
 2. Place whatever you want to remove from the inventory onto the tashbin-icon.
 3. Tada! The waste is gone forever!
 
+![Screenshot](screenshot.png "Screenshot") 
+
 ## Known issues?
 
 See the ``issues``-tab in GitHub-Repository.
